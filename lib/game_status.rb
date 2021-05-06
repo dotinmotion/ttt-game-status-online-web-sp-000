@@ -81,7 +81,7 @@ end
 
 def full?(board)
   binding.pry
-  #draw?(board) || board.all?  
+  #board.all? { "X" || "O"
 end
 
 def draw?(board)
