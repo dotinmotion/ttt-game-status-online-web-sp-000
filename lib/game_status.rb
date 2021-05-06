@@ -93,8 +93,9 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    return board[win_index_1]
-  end
+  binding.pry
+  #if won?(board)
+    #return board[win_index_1]
+  #end
 end
   
