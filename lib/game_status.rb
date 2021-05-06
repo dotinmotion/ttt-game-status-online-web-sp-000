@@ -80,8 +80,8 @@ def won?(board)
 end
 
 def full?(board)
-  binding.pry
-  #board.all? { |token| token== "X" || token=="O"}
+  #binding.pry
+  board.all? { |token| token== "X" || token=="O"}
 end
 
 def draw?(board)
