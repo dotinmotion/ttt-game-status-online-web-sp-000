@@ -93,9 +93,9 @@ def over?(board)
 end
 
 def winner(board)
-  binding.pry
-  #if won?(board)
-    #return board[won?(board)[0]]
-  #end
+  #binding.pry
+  if won?(board)
+    return board[won?(board)[0]]
+  end
 end
   
